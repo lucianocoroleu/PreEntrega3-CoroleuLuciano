@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+
+<body>
+    <h1>Carrito de Compras</h1>
+    <div id="catalogo">
+        <div class="producto" data-indice="0">
+            <p>1. Buzo: $5500</p>
+            <label for="cantidad0">Cantidad:</label>
+            <input type="number" id="cantidad0" min="0">
+            <button class="agregar-btn">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-indice="1">
+            <p>2. Remera: $1200</p>
+            <label for="cantidad1">Cantidad:</label>
+            <input type="number" id="cantidad1" min="0">
+            <button class="agregar-btn">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-indice="2">
+            <p>3. Camisa: $2500</p>
+            <label for="cantidad2">Cantidad:</label>
+            <input type="number" id="cantidad2" min="0">
+            <button class="agregar-btn">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-indice="3">
+            <p>4. Pantalón: $3200</p>
+            <label for="cantidad3">Cantidad:</label>
+            <input type="number" id="cantidad3" min="0">
+            <button class="agregar-btn">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <div id="detalleCompra"></div>
+
+    <div>
+        <button id="borrarCarrito">Borrar Carrito</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
